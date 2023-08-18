@@ -1,0 +1,208 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    color: var(--bs-dark-color);
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+p{
+
+margin:0;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.07rem;
+}
+button,a{
+    text-decoration: none;
+    font-size: 1.15rem !important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;;
+}
+.common-title{
+    margin-bottom: 4.2rem;
+}
+li{
+    list-style: none;
+}
+.hero-video--section{
+
+width: 30rem;
+border-radius: 2rem;
+}
+
+.hero-section .container{
+display: grid;
+place-content: center;
+height: inherit;
+}
+.bg-main{
+height:80vh;
+position: relative;
+}
+:root{
+
+--bs-dark-color:#1a1d20;
+--bs-dark-primary:#1c1c1c;
+--bs-main-color:#fff;
+--bs-primary-color:#c6c6c6;
+--secondary-color:#29a9fd;
+--bs-supporting-color:#c850C0;
+}
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+.nav-link{
+color:var(--bs-primary-color);
+font-weight: bold;
+}
+.nav-link:hover{
+    color:var(--secondary-color);
+}
+.services-section{
+    padding:4rem 0 3rem 0 !important;
+}
+
+
+.custom-shape-divider-bottom-1692212986 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1692212986 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1692212986 .shape-fill {
+    fill: #FFFFFF;
+}
+.icon-span{
+    background-color: var(--secondary-color);
+    width:2.5rem;
+    height:2.5rem;
+    color:var(--bs-main-color)
+}
+.card-box:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.img-section img{
+    width:70%;
+    
+}
+.business-section{
+    padding-top:3rem;
+}
+.common-section{
+    padding: 0 0 6rem 0;
+}
+
+.carousel .card{
+    background-color: antiquewhite;
+    color:#1c1c1c;
+}
+.carousel .card :hover {
+background-color: azure;
+
+}
+
+.carousel-indicators{
+    bottom:-20%;
+}
+.custom-shape-divider-top-1692304421 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1692304421 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1692304421 .shape-fill {
+    fill: #FFFFFF;
+}
+.contact-section{
+    position: relative;
+}
+
+.contact-section .form-section{
+    width:50%;
+}
+.footers{
+  text-align: center;
+}
+.footer{
+    margin-right: 10px;
+    font-size: x-large;
+}
+
+
+@media screen and (max-width: 480px){
+   
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .hero-section h1{
+        font-size:2rem;
+        margin-top: 50px;
+    }
+    .hero-section button {
+        margin-bottom:25px;
+        text-align: start !important;
+    }
+    .hero-section video{
+width:70%;
+border-radius: 2rem;
+    }
+    .more-info-section h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .more-info-section p{
+        text-align: center;
+    }
+    .more-info-section figure{
+    text-align: center;
+    
+    }
+    .more-info-section button {
+        margin-bottom: 30px;
+    }
+    .business-section h2{
+        font-size: 2rem;
+    }
+    .contact-section h2{
+        margin-top:50px;
+    }
+}
+
+
+    
